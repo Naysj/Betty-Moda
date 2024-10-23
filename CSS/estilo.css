@@ -53,7 +53,7 @@ body{
 }
 
 .menu-horizontal > li:hover {
-    background-color: #dcdcdc;
+    background-color: #c4bbbb;
 }
 
 .menu-vertical {
@@ -78,7 +78,7 @@ body{
 }
 
 .menu-vertical li:hover {
-    background-color: #f5f5f5;
+    background-color: #c4bbbb;
 }
 
 #menu {
@@ -108,7 +108,7 @@ display: none;
     backdrop-filter: blur(10px);
     top:100%;
     z-index: 1;
-    background-color:#4E4B5076;
+    background-color:#c4bbbb;
     padding: 20px;
     min-width: 400px;
 }
@@ -231,7 +231,7 @@ tr, th{
 
 .product-content {
 display: grid;
-grid-template-columns: repeat(6,1fr);
+grid-template-columns: repeat(4,1fr);
 gap: 50px;
 }
 
@@ -347,6 +347,10 @@ margin-bottom: 15px;
     margin: right 20px;
 }
 
+.heigh-img{
+    height: 320px;
+}
+
 @media (max-width:991px) {
     .menu {
         padding: 20px;
@@ -365,7 +369,7 @@ margin-bottom: 15px;
         display: none;
     }
 .menu .navbar ul li a {
-    color: #ffffff;
+    color:#dcdcdc ;
 }
 
 #menu:checked ~ .navbar{
